@@ -6,7 +6,40 @@
 
     <groupId>com.aeontronix.techmanager.cli</groupId>
     <artifactId>aeon-technology-manager-cli</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-alpha1-SNAPSHOT</version>
+    <name>Aeon Technology Manager CLI</name>
+    <description>Command line tool to interact with Aeon Technology Manager Server</description>
+    <url>https://github.com/aeontronix/aeon-technology-manager-cli</url>
+
+    <organization>
+        <name>Aeontronix Inc</name>
+        <url>http://www.aeontronix.com</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Dev Team</name>
+            <organization>Aeontronix</organization>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/aeontronix/aeon-technology-manager-cli/issues</url>
+    </issueManagement>
+
+    <scm>
+        <url>https://github.com/aeontronix/aeon-technology-manager-cli</url>
+        <connection>scm:git:https://github.com/aeontronix/aeon-technology-manager-cli.git</connection>
+        <developerConnection>scm:git:https://github.com/aeontronix/aeon-technology-manager-cli.git</developerConnection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>AGPL 3.0</name>
+            <url>https://www.gnu.org/licenses/agpl-3.0.en.html</url>
+        </license>
+    </licenses>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
