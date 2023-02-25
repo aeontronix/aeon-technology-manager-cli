@@ -4,12 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.aeontronix.techmanager.cli</groupId>
-    <artifactId>aeon-technology-manager-cli</artifactId>
+    <groupId>com.aeontronix.techmanager.client</groupId>
+    <artifactId>aeon-technology-manager-client</artifactId>
     <version>1.0.0-alpha1-SNAPSHOT</version>
-    <name>Aeon Technology Manager CLI</name>
-    <description>Command line tool to interact with Aeon Technology Manager Server</description>
-    <url>https://github.com/aeontronix/aeon-technology-manager-cli</url>
+    <packaging>pom</packaging>
+    <modules>
+        <module>lib</module>
+    </modules>
+    <name>Aeon Technology Manager Client</name>
+    <description>Clients to interact with Aeon Technology Manager Server</description>
+    <url>https://github.com/aeontronix/aeon-technology-manager-client</url>
 
     <organization>
         <name>Aeontronix Inc</name>
@@ -25,13 +29,13 @@
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/aeontronix/aeon-technology-manager-cli/issues</url>
+        <url>https://github.com/aeontronix/aeon-technology-manager-client/issues</url>
     </issueManagement>
 
     <scm>
-        <url>https://github.com/aeontronix/aeon-technology-manager-cli</url>
-        <connection>scm:git:https://github.com/aeontronix/aeon-technology-manager-cli.git</connection>
-        <developerConnection>scm:git:https://github.com/aeontronix/aeon-technology-manager-cli.git</developerConnection>
+        <url>https://github.com/aeontronix/aeon-technology-manager-client</url>
+        <connection>scm:git:https://github.com/aeontronix/aeon-technology-manager-client.git</connection>
+        <developerConnection>scm:git:https://github.com/aeontronix/aeon-technology-manager-client.git</developerConnection>
     </scm>
 
     <licenses>
