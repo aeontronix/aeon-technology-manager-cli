@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>lib</module>
+        <module>cli</module>
     </modules>
     <name>Aeon Technology Manager Client</name>
     <description>Clients to interact with Aeon Technology Manager Server</description>
