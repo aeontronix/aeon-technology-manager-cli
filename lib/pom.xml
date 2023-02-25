@@ -13,4 +13,11 @@
     <name>Aeon Technology Manager Client Java Library</name>
     <description>Client library to interact with Aeon Technology Manager Server</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.aeontronix.restclient</groupId>
+            <artifactId>aeon-rest-client</artifactId>
+            <version>1.0.0-beta14</version>
+        </dependency>
+    </dependencies>
 </project>
